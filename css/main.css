@@ -1,0 +1,1584 @@
+:root {
+  --color-primary: #f0a500;
+  --color-secound: #fafafa;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+@font-face {
+  font-family: "regular";
+  src: url("../fonts/Cairo-Regular.ttf");
+}
+@font-face {
+  font-family: "semibold";
+  src: url("../fonts/Cairo-SemiBold.ttf");
+}
+@font-face {
+  font-family: "bold";
+  src: url("../fonts/Cairo-Bold.ttf");
+}
+/* ============== FLoating ============= */
+.float {
+  position: fixed;
+  width: 8%;
+  height: 20%;
+  bottom: -7%;
+  right: 40px;
+  z-index: 9999;
+}
+.floatbtn {
+  position: fixed;
+  bottom: 2%;
+  font-size: 14px;
+  padding: 0.5% 1%;
+  font-family: bold;
+  left: 5%;
+  color: #000;
+  background-color: var(--color-primary);
+  z-index: 9999;
+  text-align: center;
+}
+
+/* ============== FLoating ============= */
+
+.more {
+  background-color: var(--color-primary);
+  font-size: 14px;
+  padding: 1% 2%;
+  font-family: bold;
+  margin-top: 5%;
+}
+/* Navbar */
+nav {
+  width: 100%;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  margin: 0 auto;
+  background-color: #000;
+}
+.navbar-light .navbar-toggler {
+  border: 2px solid #fff !important;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+nav .navbar-nav li a {
+  font-size: 14px;
+}
+nav .logo {
+  width: 5%;
+}
+.navbar .navbar-collapse .navbar-nav {
+  align-items: center;
+  justify-content: center;
+}
+.btn-group .dropdown-toggle {
+  background-color: var(--color-primary);
+  font-family: bold;
+  font-size: 14px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+nav .dropdown-menu {
+  right: 0;
+}
+nav .dropdown-menu a {
+  text-align: start;
+}
+nav .royalogo img {
+  width: 70%;
+  border-radius: 5px;
+}
+nav .lang a {
+  /* font-family: bold; */
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+nav .lang a:hover {
+  color: #f7be44;
+}
+.navbar-nav .nav-item {
+  width: max-content;
+}
+.navbar-nav .nav-item a {
+  font-family: bold;
+  color: #fff !important;
+}
+.navbar .navbar-collapse ul li a:hover {
+  color: var(--color-primary) !important;
+}
+.navbar .navbar-collapse ul li a.active {
+  color: var(--color-primary) !important;
+  text-decoration: none;
+  border: 0;
+}
+.navbar .navbar-collapse .my-btn a.active {
+  font-family: bold;
+  font-size: 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  background-color: transparent;
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+.navi-item {
+  list-style: none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+.navi-text {
+  color: #bcbcbc;
+  font-family: semibold;
+  font-size: 14px;
+  padding-right: 0.5rem;
+}
+.navi-item a {
+  text-decoration: none;
+}
+.navi-item:hover {
+  background-color: #f1f1f1;
+}
+.symbol {
+  float: right;
+}
+nav .btn-group .dropdown-menu .active {
+  float: right;
+  margin-right: 15%;
+}
+/* ========== Navbar =========== */
+
+/* =========== ? Carousel Slider =========== */
+.carousel-overlay {
+  position: absolute;
+  z-index: 9999;
+  color: #fff;
+  text-align: start;
+  width: 30%;
+  margin: 10% 10% 0 0;
+}
+.carousel-overlay h1 {
+  font-family: bold;
+}
+.carousel-overlay p {
+  font-family: regular;
+  width: 90%;
+  opacity: 80%;
+}
+.carousel-overlay .btn {
+  font-size: 14px;
+  padding: 2% 5%;
+  font-family: bold;
+}
+.carousel-overlay .Shipping {
+  background-color: var(--color-primary);
+}
+.carousel-overlay .contact {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active{
+  border: none;
+  color: transparent;
+}
+.carousel-indicators .active{
+  border: none;
+}
+/* =========== ? Carousel Slider =========== */
+
+/* =========== ?  services =========== */
+.services {
+  text-align: center;
+}
+.services h3 {
+  text-align: start;
+  font-size: 24px;
+}
+.services h3,
+h5 {
+  font-family: bold;
+}
+.services h5 {
+  font-size: 16px;
+}
+.services p {
+  font-family: regular;
+  font-size: 12px;
+}
+.services img {
+  width: 60%;
+}
+/* =========== ?  services =========== */
+
+/* =========== ?  Solve =========== */
+.solve {
+  background-color: var(--color-secound);
+  text-align: start;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.solve h3 {
+  font-family: bold;
+  font-size: 22px;
+}
+.solve img {
+  width: 100%;
+}
+.solve p {
+  font-family: regular;
+  font-size: 14px;
+  color: #57544d;
+  margin-top: 5%;
+}
+.solve .solvetext {
+  width: 65%;
+}
+/* =========== ?  Solve =========== */
+
+/* =========== ?  News =========== */
+.news {
+  text-align: start;
+  margin-bottom: 5rem;
+}
+.news h3 {
+  font-family: bold;
+  font-size: 22px;
+  display: inline;
+  text-align: start;
+}
+.news h5 {
+  font-family: bold;
+  font-size: 16px;
+  padding: 5% 2%;
+}
+.news p {
+  font-family: regular;
+  color: #57544d;
+  padding: 0 2%;
+  font-size: 14px;
+  padding-bottom: 5%;
+}
+.newstext {
+  background-color: var(--color-secound);
+  border-radius: 0 0 3% 3%;
+  cursor: pointer;
+}
+.news .more {
+  background-color: transparent;
+  border: 1px solid var(--color-primary);
+  font-size: 14px;
+  padding: 1% 2%;
+  font-family: bold;
+  margin-top: 0;
+  float: left;
+  margin-bottom: 2%;
+}
+.news img {
+  width: 100%;
+}
+/* =========== ?  News =========== */
+
+/* =========== ?  partenrs =========== */
+.partenrs {
+  margin-bottom: 10%;
+}
+.partenrs h3 {
+  text-align: start;
+  font-size: 24px;
+  font-family: bold;
+  margin: 5% 0;
+}
+.partenrs .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.partenrs .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+/* =========== ?  partenrs =========== */
+
+/* =========== ?  About US =========== */
+
+/* =========== ?  About =========== */
+.aboutus {
+  text-align: start;
+  margin-top: 5rem;
+}
+.aboutus h3 {
+  font-family: bold;
+  padding: 3% 0;
+  font-size: 24px;
+}
+.aboutus p {
+  font-family: regular;
+  width: 90%;
+  font-size: 14px;
+  line-height: 2;
+}
+.aboutus .about img {
+  width: 100%;
+}
+/* =========== ?  About US =========== */
+
+/* =========== ?  mission =========== */
+.aboutus .mission img {
+  width: 85%;
+}
+.aboutus .mission {
+  margin: 10rem 0;
+}
+.aboutus .mission h3 {
+  padding: 3% 5%;
+}
+.aboutus .mission p {
+  width: 70%;
+  padding: 0% 5%;
+}
+/* =========== ?  mission =========== */
+
+/* =========== ?  vision =========== */
+.aboutus .vision img {
+  width: 85%;
+  padding: 0% 5%;
+}
+.aboutus .vision {
+  margin: 10rem 0;
+}
+.aboutus .vision p {
+  width: 70%;
+}
+/* =========== ?  vision =========== */
+
+/* =========== ?  About US =========== */
+
+/* =========== ?  Saudia Back =========== */
+.saudia {
+  background-image: url("../media/image/aboutus/saudia.jpg");
+  background-repeat: round;
+  height: 500px;
+  color: #fff;
+  text-align: start;
+}
+.saudia .Shipping {
+  background-color: var(--color-primary);
+  font-size: 14px;
+  padding: 0.5% 1.5%;
+  font-family: bold;
+  margin: 3% 0;
+}
+.saudia .textsaudia {
+  padding: 10% 10%;
+}
+.saudia .textsaudia h3 {
+  padding: 3% 0;
+  font-family: bold;
+}
+.saudia .textsaudia p {
+  font-family: regular;
+  font-size: 14px;
+}
+/* =========== ?  Saudia Back =========== */
+
+/* =========== ?  Why section =========== */
+.why {
+  text-align: center;
+  margin: 10rem 0;
+}
+.why h3 {
+  text-align: start;
+  margin-bottom: 5rem;
+  font-family: bold;
+  font-size: 24px;
+}
+.why img {
+  width: 35%;
+}
+.why h6 {
+  font-family: bold;
+  margin: 1rem 0 5rem;
+}
+/* =========== ?  Why section =========== */
+
+/* =========== ?  services =========== */
+.BriefServices {
+  text-align: start;
+  margin: 5rem 0;
+}
+.BriefServices img {
+  width: 100%;
+}
+.BriefServices h3 {
+  font-family: bold;
+  width: 80%;
+  font-size: 26px;
+}
+.BriefServices p {
+  font-family: regular;
+  width: 80%;
+  font-size: 14px;
+  line-height: 2;
+}
+/* =========== ?  services =========== */
+
+/* =========== ?  Nebra services =========== */
+.nebraservices {
+  text-align: start;
+  margin: 5rem 0;
+}
+.nebraservices .serv {
+  margin: 3rem 0;
+  padding: 0% 5%;
+}
+.nebraservices .serv img {
+  width: 100%;
+}
+.nebraservices .serv h3,
+h6 {
+  font-family: bold;
+  font-size: 22px;
+}
+.nebraservices .serv h6 {
+  font-size: 14px;
+  margin-bottom: 5%;
+}
+.nebraservices .serv p {
+  font-family: regular;
+  font-size: 14px;
+  width: 85%;
+  padding: 3% 0;
+  line-height: 2;
+}
+.nebraservices .serv .request {
+  background-color: var(--color-primary);
+  font-size: 14px;
+  padding: 2% 5%;
+  font-family: bold;
+}
+/* =========== ?  Nebra services =========== */
+
+/* =========== ?  Head News =========== */
+.HeadNews {
+  background-color: #000;
+  padding: 1% 0;
+  margin-bottom: 5rem;
+}
+.HeadNews h3 {
+  color: #fff;
+  font-family: bold;
+  padding-top: 10%;
+}
+.HeadNews .newslogo {
+  width: 40%;
+}
+.HeadNews .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.HeadNews .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  /* Custom */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 10ms linear;
+  border-radius: 15px;
+  transform: scale(0.8);
+  pointer-events: none;
+  margin-left: 40px !important;
+  /* Custom */
+}
+.HeadNews .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+.HeadNews .swiper-slide p {
+  position: absolute;
+  color: white;
+  bottom: -12%;
+  padding: 2% 10%;
+  font-size: 7px;
+  font-family: bold;
+  background-color: rgba(0, 0, 0, 0.59);
+}
+.HeadNews .swiper-slide-active {
+  transform: scale(1.5);
+  opacity: 1;
+  pointer-events: all;
+  /* width: 50% !important; */
+}
+.HeadNews .swiper-slide-active p {
+  bottom: 5%;
+}
+.HeadNews .swiper-slide-active img {
+  height: 67%;
+}
+/* =========== ?  Head News =========== */
+
+/* =========== ?  artical =========== */
+.articalHead {
+  text-align: start;
+}
+.articalHead img {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.articalHead h3 {
+  font-family: bold;
+  font-size: 20px;
+  display: inline;
+}
+.articalHead button {
+  float: left;
+  background-color: #000;
+  color: #fff;
+  font-family: bold;
+  font-size: 14px;
+  padding: 0.75% 2%;
+}
+.articalHead .author {
+  text-align: start;
+  font-family: regular;
+  margin-top: 2%;
+}
+.articalHead .date {
+  text-align: end;
+  font-family: regular;
+  margin-top: 2%;
+}
+.articalHead hr {
+  border: 4px solid var(--color-primary);
+  border-radius: 5px;
+}
+.articalHead .mainartical {
+  width: 70%;
+  line-height: 2;
+  font-family: regular;
+}
+.articalHead .shareartical {
+  margin-bottom: 5rem;
+}
+.articalHead .shareartical p {
+  font-family: semibold;
+}
+.articalHead .shareartical .socialicon {
+  display: flex;
+  justify-content: start;
+  padding-right: 0;
+}
+
+.articalHead .shareartical .socialicon li {
+  list-style: none;
+}
+
+.articalHead .shareartical .socialicon li a {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  margin: 0 5px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 0.5px solid rgb(134, 134, 134);
+  z-index: 1;
+}
+
+.articalHead .shareartical .socialicon li a .icon {
+  position: relative;
+  color: #262626;
+  transition: 0.5s;
+  z-index: 3;
+}
+
+.articalHead .shareartical .socialicon li a:hover .icon {
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+.articalHead .shareartical .socialicon li a:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f00;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+.articalHead .shareartical .socialicon li a:hover:before {
+  top: 0;
+}
+
+.articalHead .shareartical .socialicon li:nth-child(1) a:before {
+  background: #3b5999;
+}
+
+.articalHead .shareartical .socialicon li:nth-child(2) a:before {
+  background: #55acee;
+}
+
+.articalHead .shareartical .socialicon li:nth-child(3) a:before {
+  background: #0077b5;
+}
+
+.articalHead .shareartical .socialicon li:nth-child(4) a:before {
+  background: #dd4b39;
+}
+
+/* =========== ?  artical =========== */
+
+/* =========== ?  Contact Us =========== */
+
+.ContactUs {
+  text-align: start;
+  margin: 10rem 0 5rem;
+}
+.ContactUs h6 {
+  font-family: bold;
+  font-size: 18px;
+  color: #1a1200;
+}
+.ContactUs p {
+  font-family: regular;
+  padding: 3% 0;
+  width: 65%;
+  font-size: 15px;
+  line-height: 2;
+  color: rgba(87, 84, 77, 0.8);
+}
+.ContactUs h6::after {
+  content: url(../media/image/SpeechBubble.svg);
+  margin: 5%;
+}
+
+/* Input form Style */
+
+.ContactUs .contactinput input,
+textarea {
+  border: 2px solid #bcbcbc;
+  border-radius: 5px;
+  height: 47px;
+  width: 100%;
+  font-family: bold;
+  color: #333333;
+  font-size: 14px;
+  padding-right: 20px;
+  box-shadow: none;
+}
+.ContactUs .contactinput textarea {
+  resize: none;
+  height: 150px;
+  padding: 1rem;
+}
+
+/* Label style after Input feild is in focus. Can also use input:focus ~ label to select sibling. */
+
+.ContactUs .contactinput input:focus + label,
+.ContactUs .contactinput input:valid + label {
+  font-size: 12px;
+  color: #bcbcbc;
+  top: -5px;
+  right: 10px;
+  font-family: bold;
+  background: #ffffff;
+  padding: 0px 5px 0px 5px;
+}
+.ContactUs .contactinput textarea:focus + label,
+.ContactUs .contactinput textarea:valid + label {
+  font-size: 12px;
+  color: #bcbcbc;
+  top: -5px;
+  right: 10px;
+  font-family: bold;
+  background: #ffffff;
+  padding: 0px 5px 0px 5px;
+}
+
+.ContactUs .contactinput .input_wrap {
+  width: auto;
+  height: auto;
+  position: relative;
+}
+
+.ContactUs .contactinput .input_wrap label {
+  font-family: arial;
+  font-size: 16px;
+  color: #bcbcbc;
+  padding: 14px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+  pointer-events: none;
+}
+
+.ContactUs .contactinput input:focus,
+textarea:focus {
+  outline: none;
+}
+/* Input form Style */
+
+/* Checkbox agree */
+
+/* The container */
+.ContactUs .contactinput .container-checkbox {
+  display: block;
+  position: relative;
+  margin-top: 3%;
+  padding-right: 10%;
+  line-height: 2;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-family: "bold";
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #57544d;
+}
+
+/* Hide the browser's default checkbox */
+.ContactUs .contactinput .container-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.ContactUs .contactinput .container-checkbox .checkmark {
+  position: absolute;
+  top: 0;
+  right: 3%;
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* On mouse-over, add a grey background color */
+.ContactUs .contactinput .container-checkbox:hover input ~ .checkmark {
+  background-color: rgb(236, 236, 236);
+}
+
+/* When the checkbox is checked, add a blue background */
+.ContactUs .contactinput .container-checkbox input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.ContactUs .contactinput .container-checkbox .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.ContactUs .contactinput .container-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.ContactUs .contactinput .container-checkbox .checkmark:after {
+  left: 10px;
+  top: 5%;
+  width: 30%;
+  height: 75%;
+  border: solid white;
+  border-width: 0 4px 4px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* Checkbox agree */
+
+.ContactUs .contactinput .send {
+  margin-right: 3%;
+  margin-top: 3%;
+  font-size: 14px;
+  padding: 1% 4%;
+  font-family: bold;
+  color: #000;
+  background-color: var(--color-primary);
+  text-align: center;
+}
+.ContactUs .contactsocial {
+  margin: 10rem 0;
+  text-align: start;
+}
+.ContactUs .contactsocial img {
+  width: 100%;
+}
+.ContactUs .contactsocial h5 {
+  font-family: bold;
+  font-size: 18px;
+  color: rgba(26, 18, 0, 0.8);
+}
+
+/* =========== Social icon =========== */
+.ContactUs .contactsocial .social .socialicon {
+  display: block;
+  /* justify-content: start; */
+  padding-right: 0;
+}
+
+.ContactUs .contactsocial .social .socialicon li {
+  list-style: none;
+  margin-top: 5%;
+  display: flex;
+}
+
+.ContactUs .contactsocial .social .socialicon li a {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  margin: 0 5px;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 0.5px solid rgb(134, 134, 134);
+  z-index: 1;
+}
+.ContactUs .contactsocial .social .socialicon li p {
+  display: inline-block;
+  padding: 0 10%;
+  font-family: regular;
+  position: absolute;
+  margin-top: 1%;
+  color: #1a1200;
+}
+
+.ContactUs .contactsocial .social .socialicon li a .icon {
+  position: relative;
+  color: #262626;
+  transition: 0.5s;
+  z-index: 3;
+}
+
+.ContactUs .contactsocial .social .socialicon li a:hover .icon {
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+.ContactUs .contactsocial .social .socialicon li a:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f00;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+.ContactUs .contactsocial .social .socialicon li a:hover:before {
+  top: 0;
+}
+
+.ContactUs .contactsocial .social .socialicon li:nth-child(1) a:before {
+  background: #3b5999;
+}
+
+.ContactUs .contactsocial .social .socialicon li:nth-child(2) a:before {
+  background: #55acee;
+}
+
+.ContactUs .contactsocial .social .socialicon li:nth-child(3) a:before {
+  background: #0077b5;
+}
+
+.ContactUs .contactsocial .social .socialicon li:nth-child(4) a:before {
+  background: #dd4b39;
+}
+/* =========== Social icon =========== */
+
+.ContactUs .contactsocial .contactaddress ul li img {
+  width: 1.2rem;
+  margin-left: 0.5rem;
+}
+.ContactUs .contactsocial .contactaddress ul {
+  padding-right: 3%;
+}
+.ContactUs .contactsocial .contactaddress ul li {
+  display: block;
+  margin-top: 5%;
+}
+.ContactUs .contactsocial .contactaddress ul li span {
+  color: rgba(26, 18, 0, 0.8);
+  font-family: regular;
+  font-size: 16px;
+}
+.ContactUs .modal-header {
+  border-bottom: 0;
+}
+.ContactUs .modal-header .close {
+  margin: -1rem auto -1rem -1rem;
+}
+.ContactUs .modal-body img {
+  display: block;
+  margin: 0 auto;
+  width: 35%;
+}
+.ContactUs .modal-body h5 {
+  font-family: bold;
+  font-size: 16px;
+  margin: 5% 0;
+  text-align: center;
+}
+/* =========== ?  Contact Us =========== */
+
+/* =========== ?  Order =========== */
+.order h5 {
+  font-family: bold;
+  text-align: start;
+  margin-top: 10%;
+  font-size: 18px;
+}
+.order ul li,
+a {
+  text-decoration: none;
+  margin-top: 0%;
+  list-style: none;
+  font-size: 1em;
+  float: left;
+}
+.order .form {
+  width: 80%;
+  height: auto;
+  margin: 0 0 0 120px;
+  padding: 25px 0 25px 0;
+  text-align: center;
+  border: 0px solid white;
+}
+.order ul.tab {
+  list-style-type: none;
+  margin: 3% 0 0 0;
+  padding: 0;
+  overflow: hidden;
+  border-bottom: 0;
+  width: fit-content;
+}
+.order ul.tab li {
+  float: left;
+}
+
+.order ul.tab li a {
+  display: inline-block;
+  color: #c9c9c9;
+  text-align: center;
+  padding: 15px 105px;
+  text-decoration: none;
+  border-radius: 10px 10px 0 0;
+  transition: 0.3s;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: bold;
+}
+.order ul.tab li a:focus,
+.active {
+  border: 2px solid var(--color-primary);
+  border-bottom-width: 0;
+  color: var(--color-primary) !important;
+}
+.order .tabcontent {
+  display: none;
+  padding: 12px 40px;
+  border: 2px solid var(--color-primary);
+  width: 100%;
+  border-radius: 10px 0 10px 10px;
+  text-align: start;
+}
+.order .Ship p {
+  font-family: bold;
+  text-align: start;
+}
+
+/* Radio button */
+
+/* The container */
+.order .Ship .container {
+  display: inline;
+  position: relative;
+  padding-left: 5%;
+  margin-right: 5%;
+  padding-right: 1%;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-family: bold;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.order .Ship .container:nth-child(3){
+  padding-right: 2%;
+}
+
+/* Hide the browser's default radio button */
+.order .Ship .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.order .Ship .checkmark {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 45%;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.order .Ship .container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.order .Ship .container input:checked ~ .checkmark {
+  background-color: var(--color-primary);
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.order .Ship .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.order .Ship .container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.order .Ship .container .checkmark:after {
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: white;
+}
+/* Radio button */
+
+/* Input form Style */
+.order .contactinput{
+  margin-top: 5rem;
+}
+.order .contactinput input,
+textarea {
+  border: 2px solid #bcbcbc;
+  border-radius: 5px;
+  height: 47px;
+  width: 100%;
+  font-family: bold;
+  color: #333333;
+  font-size: 14px;
+  padding-right: 20px;
+  box-shadow: none;
+}
+.order .contactinput textarea {
+  resize: none;
+  height: 150px;
+  padding: 1rem;
+}
+
+/* Label style after Input feild is in focus. Can also use input:focus ~ label to select sibling. */
+
+.order .contactinput input:focus + label,
+.order .contactinput input:valid + label {
+  font-size: 12px;
+  color: #bcbcbc;
+  top: -5px;
+  right: 10px;
+  font-family: bold;
+  background: #ffffff;
+  padding: 0px 5px 0px 5px;
+}
+.order .contactinput textarea:focus + label,
+.order .contactinput textarea:valid + label {
+  font-size: 12px;
+  color: #bcbcbc;
+  top: -5px;
+  right: 10px;
+  font-family: bold;
+  background: #ffffff;
+  padding: 0px 5px 0px 5px;
+}
+
+.order .input_wrap {
+  width: auto;
+  height: auto;
+  position: relative;
+}
+
+.order .contactinput .input_wrap label {
+  font-family: arial;
+  font-size: 16px;
+  color: #bcbcbc;
+  padding: 14px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+  pointer-events: none;
+}
+
+.order .contactinput input:focus,
+textarea:focus {
+  outline: none;
+}
+.order .contactinput input[type="date"]{
+  padding: 0 3%;
+}
+.order .contactinput .date label{
+  padding-right: 10%;
+}
+.order .contactinput .send {
+  margin-right: 1%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  display: block;
+  font-size: 14px;
+  padding: 1% 4%;
+  font-family: bold;
+  color: #000;
+  background-color: var(--color-primary);
+  text-align: center;
+}
+/* Input form Style */
+
+.order .modal-body{
+  text-align: center;
+  font-family: bold;
+}
+.order .modal-body .new{
+  font-size: 14px;
+  padding: 1.5% 4%;
+  font-family: bold;
+  color: #000;
+  background-color: var(--color-primary);
+}
+.order .modal-body .back{
+  font-size: 14px;
+  padding: 1.5% 4%;
+  font-family: bold;
+  color: #000;
+  border: 1px solid #707070;
+  background-color: #fff;
+}
+.order .modal-body img {
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+}
+.order .modal-body h5 {
+  font-family: bold;
+  font-size: 16px;
+  margin: 5% 0;
+  text-align: center;
+}
+
+/* =========== ?  Order =========== */
+
+/* =========== ?  Order Search =========== */
+.ordersearch{
+  background-color: #FAFAFA;
+  padding: 5% 10%;
+  margin: 5rem auto;
+  border-radius: 5px;
+  box-shadow: 1px 3px 1px 1px #e3e3e3;
+}
+.ordersearch h4{
+  font-family: bold;
+  padding-bottom: 5%;
+  text-align: start;
+  font-size: 20px;
+}
+.ordersearch .search{
+  font-size: 14px;
+  font-family: bold;
+  color: #000;
+  background-color: var(--color-primary);
+  text-align: center;
+}
+/* =========== ?  Order Search =========== */
+
+.Shipment_details{
+  background-color: #fff;
+    width: 50%;
+    margin: 5% auto;
+    box-shadow: 0 12px 24px 0 #dddddd85;
+    padding: 2% 0;
+}
+.Shipment_details label{
+  font-family: bold;
+}
+.Shipment_details p{
+  display: inline;
+  font-family: semibold;
+}
+.Shipment_details .start{
+  text-align: start;
+  margin: 1% 0;
+}
+.Shipment_details .complaints{
+  background-color: var(--color-primary);
+  font-family: bold;
+  font-size: 12px;
+  padding: 1% 3%;
+  float: left;
+}
+.Shipment_details img{
+  margin: 0 auto;
+}
+/* ======= footer ======= */
+footer {
+  background-color: var(--color-secound);
+  padding-top: 3%;
+}
+
+footer .logo-col {
+  text-align: right;
+}
+
+footer .logo-col img {
+  margin-bottom: 5%;
+  width: 70%;
+}
+
+footer .logo-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+}
+
+footer .logo-col ul li {
+  margin: 10px;
+}
+
+footer .logo-col ul li img {
+  width: 35px;
+}
+
+footer .logo-col p {
+  color: #343434;
+  text-align: center;
+  font-family: bold;
+}
+
+footer .col-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+}
+footer .socialicon {
+  display: flex;
+  justify-content: center;
+}
+
+footer .socialicon li {
+  list-style: none;
+}
+
+footer .socialicon li a {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  margin: 0 5px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #fff;
+  z-index: 1;
+}
+
+footer .socialicon li a .icon {
+  position: relative;
+  color: #262626;
+  transition: 0.5s;
+  z-index: 3;
+}
+
+footer .socialicon li a:hover .icon {
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+footer .socialicon li a:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f00;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+footer .socialicon li a:hover:before {
+  top: 0;
+}
+
+footer .socialicon li:nth-child(1) a:before {
+  background: #3b5999;
+}
+
+footer .socialicon li:nth-child(2) a:before {
+  background: #55acee;
+}
+
+footer .socialicon li:nth-child(3) a:before {
+  background: #0077b5;
+}
+
+footer .socialicon li:nth-child(4) a:before {
+  background: #dd4b39;
+}
+footer .col-links .h3 {
+  margin-bottom: 15px;
+  font-size: 1.7rem;
+  color: #171725;
+  font-family: bold;
+}
+
+footer .col-links ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+footer .col-links:last-child ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+  margin-right: 4rem;
+}
+
+footer .col-links ul li {
+  margin: 15px 0;
+  display: table;
+}
+footer .accordion .nav-link{
+    float:none;
+}
+
+footer .col-links ul li a {
+  text-decoration: none;
+  color: #464646;
+  font-family: semibold;
+  font-size: 18px;
+}
+
+footer .col-links ul li img {
+  width: 1.2rem;
+  margin-left: 0.5rem;
+}
+
+footer .col-links ul li span {
+  color: #464646;
+  font-family: regular;
+  font-size: 16px;
+}
+
+footer .footer-bottom {
+  padding: 10px 0;
+  margin-top: 30px;
+  width: 100%;
+  font-family: bold;
+  background-color: var(--color-secound);
+  border-top: 1.5px solid #a6a6a6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+}
+footer .footer-bottom .item h6 {
+  font-size: 1rem;
+}
+footer .footer-bottom .item span {
+  font-size: 0.75rem;
+}
+footer .footer-bottom .my-heart {
+  animation: hvr-pulse 0.3s infinite;
+}
+/* ======= footer ======= */
+
+/* ======= 4K style ======= */
+@media (min-width: 1600px) and (max-width: 2600px) {
+}
+/* ======= 4K style ======= */
+
+@media only screen and (max-width: 1200px) {
+  nav .royalogo img {
+    width: 60%;
+  }
+  nav .lang a {
+    font-size: 16px;
+  }
+  .HeadNews .swiper-slide p {
+    position: absolute;
+    color: white;
+    bottom: -15%;
+    padding: 2% 10%;
+    font-size: 5px;
+    font-family: bold;
+    background-color: rgba(0, 0, 0, 0.59);
+  }
+  .HeadNews .swiper-slide-active p {
+    bottom: 0%;
+  }
+  .HeadNews h3 {
+    font-size: 16px;
+  }
+  .carousel-overlay h1 {
+    font-size: 20px;
+  }
+  .carousel-overlay p {
+    font-size: 14px;
+  }
+  footer .col-links .h3 {
+    font-size: 1.5rem;
+  }
+  footer .col-links ul li a {
+    font-size: 15px;
+  }
+  footer .col-links ul li span {
+    font-size: 12px;
+  }
+}
+/* ====== Tablet style ====== */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  nav .royalogo img {
+    width: 15%;
+    display: flex;
+    margin: 3% auto;
+  }
+  .lang {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  nav .btn-group {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .services img {
+    width: 20%;
+  }
+  .solve img {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+  }
+  .solve .solvetext {
+    margin: 0 auto;
+  }
+  .solve .more {
+    margin: 5% auto;
+    display: flex;
+  }
+  .news img {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+  }
+  .newstext {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .aboutus .about img {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+  }
+  .BriefServices p {
+    width: 90%;
+  }
+  .nebraservices .storetext {
+    margin-top: -100%;
+  }
+  .nebraservices .expressimg {
+    margin-bottom: 50%;
+  }
+  footer .logo-col img {
+    width: 20%;
+  }
+}
